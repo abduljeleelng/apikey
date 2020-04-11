@@ -1,0 +1,40 @@
+{
+  "name": "apikey",
+  "version": "1.0.0",
+  "description": "API key : authenticating middleware without password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abduljeleelng/apikey.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "API",
+    "Key",
+    "Node",
+    "Api",
+    "key",
+    "node",
+    "js",
+    "express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Abduljeleelng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abduljeleelng/apikey/issues"
+  },
+  "homepage": "https://github.com/abduljeleelng/apikey#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0"
+  }
+}
