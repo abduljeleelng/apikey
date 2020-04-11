@@ -15,7 +15,7 @@ const port = process.env.PORT || 2000;
 const connectOption= { useNewUrlParser: true,useUnifiedTopology: true };
 mongoose.
 connect(db,connectOption).
-then(data=>{console.log(`database is connected on port ${port}`)}).
+then(()=>{console.log(`database is connected on port ${port}`)}).
 catch(error=>{console.log(error)})
 
 
